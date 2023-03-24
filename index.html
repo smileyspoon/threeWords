@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/styles.css">
+  <title>Random Words of the Day</title>
+</head>
+
+<body>
+
+
+<section class="brand">Three Words</section>
+
+
+
+
+  <section class="app">
+
+    <div class="word-container" id="word-container">
+      <!-- Add structure for each word here -->
+      <div class="word" id="word-1">
+        <h2 class="word__title"></h2>
+        <p class="word__definition"></p>
+        <ul class="word__example-list"></ul>
+        <button class="word__pronounce-button">Pronounce</button>
+      </div>
+      <div class="word" id="word-2">
+        <h2 class="word__title"></h2>
+        <p class="word__definition"></p>
+        <ul class="word__example-list"></ul>
+        <button class="word__pronounce-button">Pronounce</button>
+      </div>
+      <div class="word" id="word-3">
+        <h2 class="word__title"></h2>
+        <p class="word__definition"></p>
+        <ul class="word__example-list"></ul>
+        <button class="word__pronounce-button">Pronounce</button>
+      </div>
+    </div>
+    <button class="app__refresh-button" onclick="getRandomWords()">Refresh Words</button>
+  </section>
+  <script src="./src/app.js"></script>
+</body>
+
+</html>

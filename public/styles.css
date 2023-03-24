@@ -1,0 +1,41 @@
+:root {
+  
+}
+
+  html {
+    box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("../images/background--book.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.brand {
+  
+}
+
+h1, h2,h3{
+  margin: 0;
+  padding: 0;
+  
+  }
+
+.word__title {
+  margin-top:2rem
+  }
+
+button {
+  margin:  1rem 0rem;
+  
+  }
+
